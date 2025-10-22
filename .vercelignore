@@ -1,0 +1,13 @@
+.cache
+.git
+.github
+.idea
+.next
+.vercel
+.vscode
+__pycache__
+node_modules
+.DS_Store
+Thumbs.db
+pnpm-lock.yaml
+yarn.lock

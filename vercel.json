@@ -1,9 +1,12 @@
 {
-  "buildCommand": "chmod +x node_modules/.bin/react-scripts && npm run build",
-  "outputDirectory": "build",
   "framework": "create-react-app",
   "installCommand": "npm install",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
